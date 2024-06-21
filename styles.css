@@ -1,0 +1,10 @@
+:root{
+    --color-yellow:#FDC80A;
+    --color-blue-1:#1D1856;
+    --color-blue-2:#32526E;
+    --color-white:#ffffff
+}
+/* Esto es un ejemplo de como llamar las variables 
+body {
+    background-color: var(--color-white);
+} */
