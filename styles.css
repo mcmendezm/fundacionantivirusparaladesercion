@@ -8,3 +8,91 @@
 body {
     background-color: var(--color-white);
 } */
+
+/*stylo Teo*/
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+    background-color: var(--color-white);
+    flex-wrap: wrap;
+}
+
+.info1 {
+    width: 500px;
+    height: 300px;
+    padding: 50px 120px 50px 80px;
+    align-content: center;
+    line-height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.info1 h1 {
+    font-size: 50px;
+    color: var(--color-blue-1);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.info1 p {
+    font-size: 19px;
+    line-height: 25px;
+    margin: 35px 0px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    position: relative;
+    margin: 18px;
+    background-color: var(--color-yellow);
+    color: white;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.contact:hover {
+    background-color: #32526E;
+}
+
+.aboutus {
+    border: 3px solid #FDC80A;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    position: relative;
+    margin: 17px;
+    background-color: var(--color-white);
+    color: var(--color-blue-2);
+    border-radius: 20px; 
+}
+
+.aboutus:hover {
+    border: 3px solid #32526E;
+}
+
+.img1 {
+    width: 390px;
+    height:485px;
+}
+
+.img2 {
+    width: 390px;
+    height:485px;
+    margin-top: -488px;
+    margin-left: 852px;
+    opacity: 0;
+}
+
+.img2:hover {
+    opacity: 1;
+}
+
+
+/*fin stylo Teo*/
