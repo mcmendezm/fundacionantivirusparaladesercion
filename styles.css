@@ -4,8 +4,9 @@
     --color-blue-2:#32526E;
     --color-white:#ffffff;
     --color-orage:#ff9800;
+    --color-white:#ffffff;
+    --color-orage:#ff9800;
 }
-/* Esto es un ejemplo de como llamar las variables 
 body {
     background-color: var(--color-white);
 } */
