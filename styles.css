@@ -2,7 +2,8 @@
     --color-yellow:#FDC80A;
     --color-blue-1:#1D1856;
     --color-blue-2:#32526E;
-    --color-white:#ffffff
+    --color-white:#ffffff;
+    --color-orage:#ff9800;
 }
 /* Esto es un ejemplo de como llamar las variables 
 body {
@@ -10,7 +11,7 @@ body {
 } */
 
 /*stylo Teo*/
-.section1 {
+.start-section1 {
     display: flex;
     justify-content: space-around;
     padding: 70px;
@@ -18,7 +19,7 @@ body {
     flex-wrap: wrap;
 }
 
-.info1 {
+.start-info1 {
     width: 500px;
     height: 300px;
     padding: 50px 120px 50px 80px;
@@ -28,24 +29,24 @@ body {
     
 }
 
-.info1 h1 {
+.start-info1 h1 {
     font-size: 50px;
     color: var(--color-blue-1);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.info1 p {
+.start-info1 p {
     font-size: 19px;
     line-height: 25px;
     margin: 35px 0px;
 }
 
-.hero-buttons {
+.start-buttons {
     display: flex;
     justify-content: space-around;
 }
 
-.contact {
+.start-contact {
     text-decoration: none;
     padding: 10px 30px;
     font-size: 1.2rem;
@@ -57,11 +58,11 @@ body {
     transition: transform 0.3s ease;
 }
 
-.contact:hover {
+.start-contact:hover {
     background-color: #32526E;
 }
 
-.aboutus {
+.start-aboutus {
     border: 3px solid #FDC80A;
     text-decoration: none;
     padding: 10px 20px;
@@ -73,16 +74,16 @@ body {
     border-radius: 20px; 
 }
 
-.aboutus:hover {
+.start-aboutus:hover {
     border: 3px solid #32526E;
 }
 
-.img1 {
+.start-img1 {
     width: 390px;
     height:485px;
 }
 
-.img2 {
+.start-img2 {
     width: 390px;
     height:485px;
     margin-top: -488px;
@@ -90,7 +91,7 @@ body {
     opacity: 0;
 }
 
-.img2:hover {
+.start-img2:hover {
     opacity: 1;
 }
 
